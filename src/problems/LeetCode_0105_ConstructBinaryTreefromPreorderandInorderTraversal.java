@@ -2,6 +2,10 @@ package problems;
 
 import shared.TreeNode;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
+
 /**
  * Given preorder and inorder traversal of a tree, construct the binary tree.
  *
@@ -20,14 +24,47 @@ import shared.TreeNode;
  *     /  \
  *    15   7
  */
+@Deprecated
 public class LeetCode_0105_ConstructBinaryTreefromPreorderandInorderTraversal {
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         return run(preorder, inorder);
     }
 
-    public TreeNode run(int[] preorder, int[] inorder) {
-        return null;
+    public static TreeNode run(int[] preorder, int[] inorder) {
+        if (preorder.length == 0 || preorder.length != inorder.length) {
+            return null;
+        }
+
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < inorder.length; i++) {
+            map.put(inorder[i], i);
+        }
+
+        TreeNode root = new TreeNode(preorder[0]);
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        int index = 1;
+        TreeNode parent = root;
+        TreeNode child = null;
+        while (index < preorder.length) {
+            child = new TreeNode(preorder[index]);
+            if (map.get(preorder[index]) < map.get(parent.val)) {
+                parent.left = child;
+                stack.push(parent);
+            }
+            else {
+                while (stack.size() > 0 && stack.peek() != null
+                        && map.get(preorder[index]) > map.get(stack.peek().val)) {
+                    parent = stack.pop();
+                }
+                parent.right = child;
+            }
+            parent = child;
+            index ++;
+        }
+
+        return root;
     }
 
 }

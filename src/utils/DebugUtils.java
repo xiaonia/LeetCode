@@ -1,7 +1,9 @@
 package utils;
 
+import algorithms.BinaryTreeTraversal;
 import shared.TreeNode;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings({"unused", "WeakerAccess"})
@@ -21,7 +23,9 @@ public class DebugUtils {
     }
 
     public static void print(TreeNode treeNode) {
-
+        List<Integer> list = new ArrayList<>();
+        BinaryTreeTraversal.inorderTraversalByRecursion(treeNode, list);
+        print(list);
     }
 
 }
