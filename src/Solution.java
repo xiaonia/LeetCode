@@ -1,5 +1,6 @@
 import algorithms.BinaryTreeTraversal;
 import problems.*;
+import shared.TreeNode;
 import utils.DataUtils;
 import utils.DebugUtils;
 
@@ -13,10 +14,9 @@ public class Solution {
         long start = System.currentTimeMillis();
 
         //*
-        DebugUtils.print(LeetCode_0112_PathSum.run(
-                DataUtils.createBinaryTree(new Integer[]{5,4,8,11,null,13,4,7,2,null,null,null,1}),
-                22
-        ));
+        TreeNode root = DataUtils.createBinaryTree(new Integer[]{1,null,2,3,null});
+        LeetCode_0114_FlattenBinaryTreetoLinkedList.call(root, null);
+        DebugUtils.print(root);
         //*/
 
         DebugUtils.print("time cost: " + (System.currentTimeMillis() - start) + " mills");
