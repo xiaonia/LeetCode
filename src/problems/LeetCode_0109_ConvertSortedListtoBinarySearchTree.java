@@ -28,7 +28,28 @@ public class LeetCode_0109_ConvertSortedListtoBinarySearchTree {
     }
 
     public static TreeNode run(ListNode head) {
-        return null;
+        if(head==null) {
+            return null;
+        }
+        return call(head,null);
+    }
+
+    public static TreeNode call(ListNode head, ListNode tail){
+        ListNode slow = head;
+        ListNode fast = head;
+        if(head == tail) {
+            return null;
+        }
+
+        while(fast != tail && fast.next != tail){
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+
+        TreeNode treeNode = new TreeNode(slow.val);
+        treeNode.left = call(head, slow);
+        treeNode.right = call(slow.next, tail);
+        return treeNode;
     }
 
 }

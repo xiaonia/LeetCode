@@ -14,9 +14,8 @@ public class Solution {
         long start = System.currentTimeMillis();
 
         //*
-        TreeNode root = DataUtils.createBinaryTree(new Integer[]{1,null,2,3,null});
-        LeetCode_0114_FlattenBinaryTreetoLinkedList.call(root, null);
-        DebugUtils.print(root);
+        //TreeNode root = DataUtils.createBinaryTree(new Integer[]{1,null,2,3,null});
+        DebugUtils.print(LeetCode_0108_ConvertSortedArraytoBinarySearchTree.run(new int[]{-10,-3,0,5,9}));
         //*/
 
         DebugUtils.print("time cost: " + (System.currentTimeMillis() - start) + " mills");
