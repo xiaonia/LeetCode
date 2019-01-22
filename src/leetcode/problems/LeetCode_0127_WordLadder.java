@@ -36,6 +36,7 @@ import java.util.*;
  *
  * Explanation: The endWord "cog" is not in wordList, therefore no possible transformation.
  */
+@Deprecated
 public class LeetCode_0127_WordLadder {
 
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
