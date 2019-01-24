@@ -45,10 +45,105 @@ package leetcode.problems;
  * You cannot travel back to station 2, as it requires 4 unit of gas but you only have 3.
  * Therefore, you can't travel around the circuit once no matter where you start.
  */
+
+@Deprecated
 public class LeetCode_0134_GasStation {
 
     public int canCompleteCircuit(int[] gas, int[] cost) {
-        return 0;
+        return run(gas, cost);
+    }
+
+    //O(n)
+    public int run(int[] gas, int[] cost) {
+        int length = gas.length;
+        int[][] infos = new int[length][2];
+        for (int j = 0; j < length; j++) {
+            infos[j][0] = -1;
+            infos[j][1] = -1;
+        }
+
+        int count = 0;
+        int start = length - 1;
+        int end = -1;
+        while (true) {
+            if (count >= length) {
+                break;
+            }
+
+            end = buildCacheInfo(gas, cost, start, infos);
+            if (end < 0) {
+                return -1;
+            }
+
+            if (end <= start) {
+                count += (start - end + 1);
+            } else {
+                count += ((start - 0 + 1) + (length - 1 - end + 1));
+            }
+
+            if (end == 0) {
+                start = length - 1;
+            } else {
+                start = end - 1;
+            }
+        }
+
+        for (int j = 0; j < length; j++) {
+            if (infos[j][0] < 0) {
+                return j;
+            }
+        }
+
+        return -1;
+    }
+
+    private int buildCacheInfo(int[] gas, int[] cost, int index, int[][] infos) {
+        int length = gas.length;
+        int i = index;
+        int count = 0; //traversal count
+
+        int remainder = gas[i] - cost[i];
+        if (remainder >= 0) {
+            return i;
+        }
+        count ++;
+
+        while (true) {
+            if (count >= length) {
+                return -1;
+            }
+
+            if (i == 0) {
+                i = length - 1;
+            } else {
+                i--;
+            }
+
+            if (infos[i][1] >= 0) { //use cache
+                remainder += infos[i][1];
+                if (i > infos[i][0]) {
+                    count += (i - infos[i][0] + 1);
+                } else {
+                    count += ((i - 0 + 1) + (length - 1 - infos[i][0] + 1));
+                }
+                if (count > length) {
+                    return -1;
+                }
+                i = infos[i][0];
+            } else {
+                remainder += (gas[i] - cost[i]);
+                count ++;
+            }
+
+            if (remainder >= 0) {
+                infos[index][0] = i;
+                infos[index][1] = remainder;
+                return i;
+            } else {
+                infos[i][0] = index;
+                infos[i][1] = remainder;
+            }
+        }
     }
 
 }

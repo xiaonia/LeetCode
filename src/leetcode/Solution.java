@@ -16,12 +16,12 @@ public class Solution {
         TreeNode root = DataUtils.createBinaryTree(new Integer[]{1,2,3});
 
         DebugUtils.print(
-                (new LeetCode_0130_SurroundedRegions()).run(
-                        new char[][]{
-                                {'X', 'X', 'X', 'X',},
-                                {'X', 'O', 'O', 'X',},
-                                {'X', 'X', 'O', 'X',},
-                                {'X', 'O', 'X', 'X',},
+                (new LeetCode_0134_GasStation()).run(
+                        new int[]{
+                                2,3,4
+                        },
+                        new int[] {
+                                3,4,3
                         }
                 )
         );

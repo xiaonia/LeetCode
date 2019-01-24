@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0ebf901-f2e1-491e-a040-4c9f5a8f19f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0130_SurroundedRegions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0127_WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0127_WordLadder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0128_LongestConsecutiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0128_LongestConsecutiveSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0129_SumRoottoLeafNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0129_SumRoottoLeafNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="31">
+              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/utils/DebugUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#478#479#0" expanded="true" />
                 <element signature="e#517#518#0" expanded="true" />
@@ -46,24 +45,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-              <folding>
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="27">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="382">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding>
-                <element signature="e#402#403#0" expanded="true" />
                 <element signature="e#429#430#0" expanded="true" />
               </folding>
             </state>
@@ -71,10 +64,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/Stack.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0133_CloneGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="109" column="55" lean-forward="true" selection-start-line="109" selection-start-column="55" selection-end-line="109" selection-end-column="55" />
+            <state relative-caret-position="164">
+              <caret line="33" column="75" lean-forward="true" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+              <folding>
+                <element signature="e#1697#1698#0" expanded="true" />
+                <element signature="e#1724#1725#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0132_PalindromePartitioningII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <element signature="e#446#447#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,14 +170,11 @@
         <option value="$PROJECT_DIR$/src/leetcode/HelloJava.java" />
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0124_BinaryTreeMaximumPathSum.java" />
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0127_WordLadderII.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/leetcode/utils/DataUtils.java" />
         <option value="$PROJECT_DIR$/src/leetcode/utils/DebugUtils.java" />
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0126_WordLadderII.java" />
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_128_LongestConsecutiveSequence.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java" />
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0132_PalindromePartitioningII.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java" />
         <option value="$PROJECT_DIR$/src/leetcode/shared/UndirectedGraphNode.java" />
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0133_CloneGraph.java" />
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0135_Candy.java" />
@@ -176,8 +182,11 @@
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0128_LongestConsecutiveSequence.java" />
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0129_SumRoottoLeafNumbers.java" />
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0127_WordLadder.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Solution.java" />
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0130_SurroundedRegions.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Solution.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java" />
       </list>
     </option>
   </component>
@@ -195,6 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,32 +220,17 @@
             </path>
             <path>
               <item name="JavaExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaExample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Hand&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/HandleMetaClass.java&#10;ClassInfo&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/ClassInfo.java&#10;MixinTe&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/test/groovy/lang/MixinTest.groovy&#10;FilterTes&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/test/groovy/FilterLineTest.groovy&#10;DGMC&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/tools/DgmConverter.java&#10;PluginDefaultMethods&#9;PSI&#9;JAVA://org.codehaus.groovy.vmplugin.v5.PluginDefaultGroovyMethods&#10;Expando&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/ExpandoMetaClass.java&#10;ClassIn&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/ClassInfo.java&#10;Closure&#9;PSI&#9;JAVA://groovy.lang.Closure&#10;DefaultMeth&#9;PSI&#9;JAVA://org.codehaus.groovy.runtime.DefaultGroovyMethods&#10;HandleMe&#9;PSI&#9;JAVA://org.codehaus.groovy.runtime.HandleMetaClass&#10;ExpandoM&#9;PSI&#9;JAVA://groovy.lang.ExpandoMetaClass" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548161861077" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548313447579" />
     <property name="last_opened_file_path" value="D:/developer/groovy/groovy-2.4.15-src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -390,10 +386,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2457356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2510661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -403,8 +399,8 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26413044" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26630434" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26413044" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26630434" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -437,12 +433,6 @@
           <line>94</line>
           <properties />
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/utils/DebugUtils.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -492,13 +482,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/util/ManagedConcurrentMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/test/groovy/FilterLineTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1215" />
@@ -694,45 +677,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0132_PalindromePartitioningII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding>
-            <element signature="e#1851#1852#0" expanded="true" />
-            <element signature="e#1875#1876#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/shared/UndirectedGraphNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0133_CloneGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-          <folding>
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1723#1724#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -749,13 +699,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.ignore" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -835,15 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0130_SurroundedRegions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding>
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="81">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -854,20 +792,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="135">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="5757" column="43" lean-forward="true" selection-start-line="5757" selection-start-column="43" selection-end-line="5757" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#202331#202332#0" expanded="true" />
+            <element signature="e#202371#202372#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/utils/DebugUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#478#479#0" expanded="true" />
             <element signature="e#517#518#0" expanded="true" />
@@ -875,24 +821,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0130_SurroundedRegions.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0132_PalindromePartitioningII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="405">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+          <folding>
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#1888#1889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0133_CloneGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="33" column="75" lean-forward="true" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+          <folding>
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="382">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding>
-            <element signature="e#402#403#0" expanded="true" />
             <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -14,6 +14,7 @@ package leetcode.problems;
  * Input: "race a car"
  * Output: false
  */
+@Deprecated
 public class LeetCode_0125_ValidPalindrome {
 
     public boolean isPalindrome(String s) {
@@ -21,7 +22,37 @@ public class LeetCode_0125_ValidPalindrome {
     }
 
     public static boolean run(String s) {
-        return false;
+        if (s == null) {
+            return false;
+        }
+
+        s = s.toLowerCase();
+        int indexLeft = 0;
+        int indexRight = s.length() - 1;
+        char charLeft = 0;
+        char charRight = 0;
+
+        while (indexLeft <= indexRight) {
+            charLeft = s.charAt(indexLeft);
+            if (!Character.isLetter(charLeft) && !Character.isDigit(charLeft)) {
+                indexLeft ++;
+                continue;
+            }
+
+            charRight = s.charAt(indexRight);
+            if (!Character.isLetter(charRight) && !Character.isDigit(charRight)) {
+                indexRight --;
+                continue;
+            }
+
+            if (charLeft != charRight) {
+                return false;
+            }
+
+            indexLeft ++;
+            indexRight --;
+        }
+        return true;
     }
 
 

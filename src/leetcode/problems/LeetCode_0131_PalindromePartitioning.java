@@ -22,4 +22,38 @@ public class LeetCode_0131_PalindromePartitioning {
         return null;
     }
 
+    public boolean isPalindrome(String s) {
+        if (s == null) {
+            return false;
+        }
+
+        s = s.toLowerCase();
+        int indexLeft = 0;
+        int indexRight = s.length() - 1;
+        char charLeft = 0;
+        char charRight = 0;
+
+        while (indexLeft <= indexRight) {
+            charLeft = s.charAt(indexLeft);
+            if (!Character.isLetterOrDigit(charLeft)) {
+                indexLeft ++;
+                continue;
+            }
+
+            charRight = s.charAt(indexRight);
+            if (!Character.isLetterOrDigit(charRight)) {
+                indexRight --;
+                continue;
+            }
+
+            if (charLeft != charRight) {
+                return false;
+            }
+
+            indexLeft ++;
+            indexRight --;
+        }
+        return true;
+    }
+
 }
