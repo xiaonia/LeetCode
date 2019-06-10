@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0ebf901-f2e1-491e-a040-4c9f5a8f19f5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0143_Reorder_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0144_BinaryTreePreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0145_BinaryTreePostorderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,46 +14,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/utils/DebugUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
+            <state relative-caret-position="-238">
               <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
               <folding>
                 <element signature="e#429#430#0" expanded="true" />
@@ -64,10 +33,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0132_PalindromePartitioningII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <element signature="e#446#447#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0133_CloneGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="33" column="75" lean-forward="true" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+            <state relative-caret-position="486">
+              <caret line="33" column="75" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
               <folding>
                 <element signature="e#1697#1698#0" expanded="true" />
                 <element signature="e#1724#1725#0" expanded="true" />
@@ -77,12 +58,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0132_PalindromePartitioningII.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0143_Reorder_List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="525">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0144_BinaryTreePreorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
               <folding>
-                <element signature="e#446#447#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0145_BinaryTreePostorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,9 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_106_ConstructBinaryTreefromInorderandPostorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/BinaryTreeTraversal.java" />
-        <option value="$PROJECT_DIR$/src/utils/DebugUtils.java" />
         <option value="$PROJECT_DIR$/src/problems/LeetCode_0105_ConstructBinaryTreefromPreorderandInorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/problems/LeetCode_0106_ConstructBinaryTreefromInorderandPostorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/problems/LeetCode_0107_BinaryTreeLevelOrderTraversalII.java" />
@@ -187,6 +190,9 @@
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Solution.java" />
         <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0143_Reorder_List.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0144_BinaryTreePreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0145_BinaryTreePostorderTraversal.java" />
       </list>
     </option>
   </component>
@@ -205,33 +211,43 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JavaExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaExample" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaExample" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaExample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Hand&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/HandleMetaClass.java&#10;ClassInfo&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/ClassInfo.java&#10;MixinTe&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/test/groovy/lang/MixinTest.groovy&#10;FilterTes&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/test/groovy/FilterLineTest.groovy&#10;DGMC&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/tools/DgmConverter.java&#10;PluginDefaultMethods&#9;PSI&#9;JAVA://org.codehaus.groovy.vmplugin.v5.PluginDefaultGroovyMethods&#10;Expando&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/ExpandoMetaClass.java&#10;ClassIn&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/ClassInfo.java&#10;Closure&#9;PSI&#9;JAVA://groovy.lang.Closure&#10;DefaultMeth&#9;PSI&#9;JAVA://org.codehaus.groovy.runtime.DefaultGroovyMethods&#10;HandleMe&#9;PSI&#9;JAVA://org.codehaus.groovy.runtime.HandleMetaClass&#10;ExpandoM&#9;PSI&#9;JAVA://groovy.lang.ExpandoMetaClass" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548313447579" />
-    <property name="last_opened_file_path" value="D:/developer/groovy/groovy-2.4.15-src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -341,12 +357,14 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -356,9 +374,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (1)" />
-      <item itemvalue="Application.HelloJava" />
       <item itemvalue="Application.HelloJava (1)" />
+      <item itemvalue="Application.HelloJava" />
+      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Groovy.HelloGroovy" />
     </list>
@@ -386,10 +404,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2510661" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2728745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -417,6 +435,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="ASM" order="9" />
     </layout>
   </component>
   <component name="XDebuggerManager">
@@ -482,131 +501,22 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/test/groovy/FilterLineTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1215" />
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/test/groovy/lang/MixinTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5719">
-          <caret line="220" column="26" lean-forward="true" selection-start-line="220" selection-start-column="26" selection-end-line="220" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/ReflectionCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="109" column="51" lean-forward="true" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/CachedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="360" column="27" lean-forward="true" selection-start-line="360" selection-start-column="27" selection-end-line="360" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/MixinInMetaClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/ScriptBytecodeAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="837" column="37" lean-forward="true" selection-start-line="837" selection-start-column="37" selection-end-line="837" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/JavaExample/groovy/HelloGroovy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/Script.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/GroovyObjectSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/MetaClassRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/InvokerHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22113">
-          <caret line="904" column="32" selection-start-line="904" selection-start-column="32" selection-end-line="904" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/GroovyObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/ClassInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9126">
-          <caret line="426" column="39" selection-start-line="426" selection-start-column="16" selection-end-line="426" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/metaclass/MetaClassRegistryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6993">
-          <caret line="326" column="24" selection-start-line="326" selection-start-column="24" selection-end-line="326" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/DefaultGroovyMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410157">
-          <caret line="15945" column="9" selection-start-line="15941" selection-start-column="7" selection-end-line="15945" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/MetaClassHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26325">
-          <caret line="1014" column="43" selection-start-line="1014" selection-start-column="43" selection-end-line="1014" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/HandleMetaClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="66" column="56" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/CachedClass.java" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/MixinInMetaClass.java" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/ScriptBytecodeAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/JavaExample/groovy/HelloGroovy.class" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/Script.java" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/GroovyObjectSupport.java" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/MetaClassRegistry.java" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/InvokerHelper.java" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/GroovyObject.java" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/ClassInfo.java" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/metaclass/MetaClassRegistryImpl.java" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/DefaultGroovyMethods.java" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/MetaClassHelper.java" />
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/HandleMetaClass.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/XTVService.java-revHEAD.svn000.tmp.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/ExpandoMetaClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1045" column="5" selection-start-line="1045" selection-start-column="5" selection-end-line="1045" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/ExpandoMetaClass.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0121_BestTimetoBuyandSellStock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-455">
@@ -635,27 +545,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="260" column="12" selection-start-line="260" selection-start-column="12" selection-end-line="260" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="310" column="12" selection-start-line="310" selection-start-column="12" selection-end-line="310" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="177" column="19" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/List.java" />
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/Collection.java" />
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/ArrayList.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/utils/DataUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -663,13 +555,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/Queue.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0126_WordLadderII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -699,37 +585,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.ignore" />
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="958" column="22" selection-start-line="958" selection-start-column="22" selection-end-line="958" selection-end-column="22" />
-          <folding>
-            <element signature="e#35486#35487#0" expanded="true" />
-            <element signature="e#35532#35533#0" expanded="true" />
-            <element signature="e#35824#35825#0" expanded="true" />
-            <element signature="e#35852#35853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="482" column="38" selection-start-line="482" selection-start-column="38" selection-end-line="482" selection-end-column="38" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Integer.java" />
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Object.java" />
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/HashMap.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0128_LongestConsecutiveSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -754,20 +612,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/StrictMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="631" column="32" selection-start-line="631" selection-start-column="32" selection-end-line="631" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="643" column="27" lean-forward="true" selection-start-line="643" selection-start-column="27" selection-end-line="643" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/StrictMath.java" />
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Math.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0127_WordLadder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -785,13 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="109" column="55" lean-forward="true" selection-start-line="109" selection-start-column="55" selection-end-line="109" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/Stack.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -799,45 +639,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="5757" column="43" lean-forward="true" selection-start-line="5757" selection-start-column="43" selection-end-line="5757" selection-end-column="43" />
-          <folding>
-            <element signature="e#202331#202332#0" expanded="true" />
-            <element signature="e#202371#202372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/utils/DebugUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0132_PalindromePartitioningII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Character.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -849,20 +651,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0133_CloneGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="33" column="75" lean-forward="true" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+        <state relative-caret-position="156">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/utils/DebugUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0132_PalindromePartitioningII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#446#447#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
+        <state relative-caret-position="-238">
           <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding>
             <element signature="e#429#430#0" expanded="true" />
@@ -870,16 +699,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0133_CloneGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="486">
+          <caret line="33" column="75" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0143_Reorder_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0144_BinaryTreePreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0145_BinaryTreePostorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
   </component>
   <component name="masterDetails">
     <states>
