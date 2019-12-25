@@ -2,252 +2,173 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0ebf901-f2e1-491e-a040-4c9f5a8f19f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0143_Reorder_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0144_BinaryTreePreorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0145_BinaryTreePostorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlin/HellpKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0149_Max_Points_on_a_Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0150.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0151.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0152.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0154.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0155.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0156.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0157.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0158.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0159.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0161.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0162.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0163.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0164.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0165.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0166.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0168.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0170.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0171.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0172.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0173.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0174.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0175.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0176.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0177.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0178.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0179.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0180.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0181.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0182.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0183.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0184.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0185.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0186.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0187.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0188.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0189.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0190.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0191.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0192.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0193.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0194.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0195.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0196.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0197.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0198.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0201.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0202.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0203.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0204.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0205.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0206.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0208.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0209.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0210.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0211.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0212.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0213.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0214.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0216.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0218.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0219.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0220.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0221.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0222.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0223.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0224.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0225.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0227.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0228.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0229.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0230.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0231.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0232.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0233.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0234.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0237.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0240.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0241.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0242.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0243.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0244.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0245.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0246.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0247.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0248.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0250.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0251.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0252.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0253.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0254.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0255.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0256.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0257.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0258.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0259.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0260.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0261.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0262.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0263.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0264.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0265.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0266.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0267.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0268.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0269.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0270.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/groovy/HelloGroovy.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/groovy/HelloGroovy.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/HelloJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/HelloJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0143_ReorderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0143_ReorderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0143_Reorder_List.java" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-              <folding>
-                <element signature="e#429#430#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0132_PalindromePartitioningII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-              <folding>
-                <element signature="e#446#447#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0133_CloneGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="33" column="75" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
-              <folding>
-                <element signature="e#1697#1698#0" expanded="true" />
-                <element signature="e#1724#1725#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0143_Reorder_List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0144_BinaryTreePreorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0145_BinaryTreePostorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>toString</find>
-      <find>segment</find>
-      <find>LeetCode_0119_PascalsTriangleII</find>
-      <find>createCallsite</find>
-      <find>$getCallSiteArray</find>
-      <find>builder</find>
-      <find>STATIC_QUALIFIER</find>
-      <find>metaclass(</find>
-      <find>metaclass (</find>
-      <find>strongMetaClass</find>
-      <find>strongMetaClass =</find>
-      <find>call()</find>
-      <find>closureMethods</find>
-      <find>Default</find>
-      <find>Multimethods</find>
-      <find>DefaultGroovyMethods</find>
-      <find>metaClass</find>
-      <find>metaClass (</find>
-      <find>loadDgmInfo</find>
-      <find>getTheClass</find>
-      <find>ExpandoMetaProperty</find>
-      <find>mixin(</find>
-      <find>expandoMethods</find>
-      <find>ism</find>
-      <find>get(</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>value</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0105_ConstructBinaryTreefromPreorderandInorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0106_ConstructBinaryTreefromInorderandPostorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0107_BinaryTreeLevelOrderTraversalII.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0110_BalancedBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0111_MinimumDepthofBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0112_PathSum.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0113_PathSumII.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0114_FlattenBinaryTreetoLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0118_PascalsTriangle.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0119_PascalsTriangleII.java" />
-        <option value="$PROJECT_DIR$/src/shared/TreeLinkNode.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0116_PopulatingNextRightPointersinEachNode.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0117_PopulatingNextRightPointersinEachNodeII.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0120_Triangle.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0115_DistinctSubsequences.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0108_ConvertSortedArraytoBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/shared/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0109_ConvertSortedListtoBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0091_DecodeWays.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0121_BestTimetoBuyandSellStock.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0121_BestTimetoBuyandSellStockII.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0121_BestTimetoBuyandSellStockIII.java" />
-        <option value="$PROJECT_DIR$/src/problems/LeetCode_0124_BinaryTreeMaximumPathSum.java" />
-        <option value="$PROJECT_DIR$/src/java/HelloJava.java" />
-        <option value="$PROJECT_DIR$/src/groovy/HelloGroovy.groovy" />
-        <option value="$PROJECT_DIR$/src/java/Solution.java" />
-        <option value="$PROJECT_DIR$/src/java/problems/LeetCode_0124_BinaryTreeMaximumPathSum.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/HelloJava.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0124_BinaryTreeMaximumPathSum.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0127_WordLadderII.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/utils/DataUtils.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/utils/DebugUtils.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0126_WordLadderII.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_128_LongestConsecutiveSequence.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0132_PalindromePartitioningII.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/shared/UndirectedGraphNode.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0133_CloneGraph.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0135_Candy.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0128_LongestConsecutiveSequence.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0129_SumRoottoLeafNumbers.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0127_WordLadder.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0130_SurroundedRegions.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Solution.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0143_Reorder_List.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0144_BinaryTreePreorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0145_BinaryTreePostorderTraversal.java" />
-      </list>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
+  <component name="ProjectId" id="1SpWIhwvtWmsYjO8FEfU7VOU1Qa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="problems" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Hand&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/HandleMetaClass.java&#10;ClassInfo&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/ClassInfo.java&#10;MixinTe&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/test/groovy/lang/MixinTest.groovy&#10;FilterTes&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/test/groovy/FilterLineTest.groovy&#10;DGMC&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/tools/DgmConverter.java&#10;PluginDefaultMethods&#9;PSI&#9;JAVA://org.codehaus.groovy.vmplugin.v5.PluginDefaultGroovyMethods&#10;Expando&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/ExpandoMetaClass.java&#10;ClassIn&#9;FILE&#9;file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/ClassInfo.java&#10;Closure&#9;PSI&#9;JAVA://groovy.lang.Closure&#10;DefaultMeth&#9;PSI&#9;JAVA://org.codehaus.groovy.runtime.DefaultGroovyMethods&#10;HandleMe&#9;PSI&#9;JAVA://org.codehaus.groovy.runtime.HandleMetaClass&#10;ExpandoM&#9;PSI&#9;JAVA://groovy.lang.ExpandoMetaClass" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548313447579" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/JavaExample" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -259,6 +180,8 @@
       <recent name="problems" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\java\github\LeetCode\out\production\JavaExample" />
+      <recent name="D:\projects\java\github\LeetCode\out\production" />
       <recent name="D:\projects\java\JavaExample" />
     </key>
   </component>
@@ -282,34 +205,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.HelloJava" />
-      <module name="JavaExample" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.Solution" />
-      <module name="JavaExample" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,6 +258,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.xosp.learn.kotlin.HellpKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="JavaExample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.xosp.learn.kotlin.HellpKotlinKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kotlin.HellpKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="JavaExample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlin.HellpKotlinKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -375,17 +296,17 @@
     <list>
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.HelloJava (1)" />
-      <item itemvalue="Application.HelloJava" />
-      <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Groovy.HelloGroovy" />
+      <item itemvalue="Kotlin.com.xosp.learn.kotlin.HellpKotlinKt" />
+      <item itemvalue="Kotlin.kotlin.HellpKotlinKt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.HelloJava (1)" />
-        <item itemvalue="Application.HelloJava" />
-        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Kotlin.com.xosp.learn.kotlin.HellpKotlinKt" />
+        <item itemvalue="Kotlin.kotlin.HellpKotlinKt" />
         <item itemvalue="Groovy.HelloGroovy" />
       </list>
     </recent_temporary>
@@ -403,40 +324,18 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2728745" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Learn" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26413044" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26630434" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2902174" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32934782" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32826087" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Maven" order="8" />
-      <window_info anchor="right" id="ASM" order="9" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -444,13 +343,11 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0121_BestTimetoBuyandSellStockII.java</url>
           <line>47</line>
-          <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/developer/groovy/groovy-2.4.15/lib/groovy-xml-2.4.15.jar!/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.class</url>
           <line>94</line>
-          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
@@ -499,248 +396,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/CachedClass.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/MixinInMetaClass.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/ScriptBytecodeAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/JavaExample/groovy/HelloGroovy.class" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/Script.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/GroovyObjectSupport.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/MetaClassRegistry.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/InvokerHelper.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/GroovyObject.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/reflection/ClassInfo.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/metaclass/MetaClassRegistryImpl.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/DefaultGroovyMethods.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/MetaClassHelper.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/org/codehaus/groovy/runtime/HandleMetaClass.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/XTVService.java-revHEAD.svn000.tmp.java" />
-    <entry file="file://D:/developer/groovy/groovy-2.4.15-src/src/main/groovy/lang/ExpandoMetaClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0121_BestTimetoBuyandSellStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/algorithms/BinaryTreeTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/HelloJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0124_BinaryTreeMaximumPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/List.java" />
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/Collection.java" />
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/ArrayList.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/utils/DataUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/Queue.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0126_WordLadderII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/shared/UndirectedGraphNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0135_Candy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.ignore" />
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Integer.java" />
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Object.java" />
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/HashMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0128_LongestConsecutiveSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="66" column="123" selection-start-line="66" selection-start-column="123" selection-end-line="66" selection-end-column="123" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0129_SumRoottoLeafNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding>
-            <element signature="docComment;class#LeetCode_0129_SumRoottoLeafNumbers#0" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/StrictMath.java" />
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Math.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0127_WordLadder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="docComment;class#LeetCode_0127_WordLadder#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0130_SurroundedRegions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/util/Stack.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developer/java/jdk1.8.0_162/src.zip!/java/lang/Character.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0134_GasStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-          <folding>
-            <element signature="e#1851#1852#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/utils/DebugUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0125_ValidPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0132_PalindromePartitioningII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0131_PalindromePartitioning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding>
-            <element signature="e#429#430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0133_CloneGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="33" column="75" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
-          <folding>
-            <element signature="e#1697#1698#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0143_Reorder_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0144_BinaryTreePreorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="19" column="73" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/problems/LeetCode_0145_BinaryTreePostorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="ideajad">
     <property name="annotate" value="false" />

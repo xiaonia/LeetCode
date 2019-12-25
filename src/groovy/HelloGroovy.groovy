@@ -30,6 +30,12 @@ println object.metaClass
 
 println Integer.metaClass
 
+testStatic()
+
+public static testStatic() {
+
+}
+
 /*xmlDoc = new groovy.xml.StreamingMarkupBuilder().bind {
     mkp.xmlDeclaration()
     mkp.declareNamespace(computer: 'Computer')
