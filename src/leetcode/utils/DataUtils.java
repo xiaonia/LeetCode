@@ -16,30 +16,38 @@ public class DataUtils {
         LinkedList<TreeNode> stack = new LinkedList<>();
         TreeNode root = new TreeNode(ints[0]);
         stack.addLast(root);
-        Integer leftVal = null;
-        Integer rightVal = null;
+        Integer val = null;
         TreeNode parent = null;
-        TreeNode child = null;
+
         int index = 1;
-        while (index < ints.length - 1) {
+        while (true) {
             if (stack.size() == 0) {
                 break;
             }
-            leftVal = ints[index];
-            rightVal = ints[index + 1];
+
             parent = stack.pollFirst();
-            if (leftVal != null) {
-                child = new TreeNode(leftVal);
-                parent.left = child;
-                stack.addLast(child);
+
+            if (index >= ints.length) {
+                break;
             }
-            if (rightVal != null) {
-                child = new TreeNode(rightVal);
-                parent.right = child;
-                stack.addLast(child);
+            val = ints[index];
+            if (val != null) {
+                parent.left = new TreeNode(val);
+                stack.addLast(parent.left);
             }
-            index += 2;
+            index ++;
+
+            if (index >= ints.length) {
+                break;
+            }
+            val = ints[index];
+            if (val != null) {
+                parent.right = new TreeNode(val);
+                stack.addLast(parent.right);
+            }
+            index ++;
         }
+
         return root;
     }
 

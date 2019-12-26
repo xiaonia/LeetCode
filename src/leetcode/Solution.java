@@ -16,13 +16,14 @@ public class Solution {
         long start = System.currentTimeMillis();
 
         //*
-        //TreeNode root = DataUtils.createBinaryTree(new Integer{}{1,2,3});
+        TreeNode input = DataUtils.createBinaryTree(new Integer[]{1, null, 2, 3});
 
         //int[][] input = new int[][]{{1,1},{3,2},{5,3},{4,1},{2,3},{1,4}};
-        int[][] input = new int[][]{{84,250},{0,0},{1,0},{0,-70},{0,-70},{1,-1},{21,10},{42,90},{-42,-230}};
+        //int[][] input = new int[][]{{84,250},{0,0},{1,0},{0,-70},{0,-70},{1,-1},{21,10},{42,90},{-42,-230}};
+        //String input = "aab";
 
         DebugUtils.print(
-                (new LeetCode_0149_Max_Points_on_a_Line()).run(
+                (new LeetCode_0145_BinaryTreePostorderTraversal()).run(
                         input
                 )
         );
