@@ -1,5 +1,6 @@
 package leetcode;
 
+import leetcode.algorithms.MorrisTraversal;
 import leetcode.shared.TreeNode;
 import leetcode.utils.DataUtils;
 import leetcode.utils.DebugUtils;
@@ -16,16 +17,16 @@ public class Solution {
         long start = System.currentTimeMillis();
 
         //*
-        TreeNode input = DataUtils.createBinaryTree(new Integer[]{1, null, 2, 3});
+        TreeNode input = DataUtils.createBinaryTree(new Integer[]{1, 2, 3, 4, 5, 6, 7});
 
         //int[][] input = new int[][]{{1,1},{3,2},{5,3},{4,1},{2,3},{1,4}};
         //int[][] input = new int[][]{{84,250},{0,0},{1,0},{0,-70},{0,-70},{1,-1},{21,10},{42,90},{-42,-230}};
         //String input = "aab";
 
+        List<Integer> list = new ArrayList<>();
+        MorrisTraversal.postorderTraversal(input, list);
         DebugUtils.print(
-                (new LeetCode_0145_BinaryTreePostorderTraversal()).run(
-                        input
-                )
+                list
         );
         //*/
 
