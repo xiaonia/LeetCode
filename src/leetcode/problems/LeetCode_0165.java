@@ -47,10 +47,60 @@ package leetcode.problems;
  * Version strings are composed of numeric strings separated by dots . and this numeric strings may have leading zeroes.
  * Version strings do not start or end with dots, and they will not be two consecutive dots.
  */
+@Deprecated
 public class LeetCode_0165 {
 
     public int compareVersion(String version1, String version2) {
-        return 0;
+        return run(version1, version2);
+    }
+
+    public static int run(String version1, String version2) {
+        char DOT = '.';
+
+        int num1 = 0;
+        int num2 = 0;
+        int start1 = 0;
+        int start2 = 0;
+        int end1 = 0;
+        int end2 = 0;
+
+        while (true) {
+            if (end1 >= version1.length()
+                    && end2 >= version2.length()) {
+                return 0;
+            }
+
+            while (end1 < version1.length()
+                    && version1.charAt(end1) != DOT) {
+                end1++;
+            }
+            if (start1 < version1.length()) {
+                num1 = Integer.parseInt(version1.substring(start1, end1));
+                end1++;
+                start1 = end1;
+            } else {
+                num1 = 0;
+            }
+
+            while (end2 < version2.length()
+                    && version2.charAt(end2) != DOT) {
+                end2++;
+            }
+            if (start2 < version2.length()) {
+                num2 = Integer.parseInt(version2.substring(start2, end2));
+                end2++;
+                start2 = end2;
+            } else {
+                num2 = 0;
+            }
+
+            if (num1 > num2) {
+                return 1;
+            }
+            if (num1 < num2) {
+                return -1;
+            }
+        }
     }
 
 }

@@ -28,10 +28,56 @@ package leetcode.problems;
  *
  * Your solution should be in logarithmic complexity.
  */
+@Deprecated
 public class LeetCode_0162 {
 
     public int findPeakElement(int[] nums) {
-        return 0;
+        return run(nums);
     }
 
+    public static int run(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return -1;
+        }
+
+        int length = nums.length;
+
+        if (length == 1) {
+            return 0;
+        }
+
+        if (nums[0] > nums[1]) {
+            return 0;
+        }
+
+        if (nums[length - 1] > nums[length - 2]) {
+            return length - 1;
+        }
+
+        int left = 0;
+        int right = nums.length - 1;
+        int mid = (left + right) / 2;
+        while (left < right) {
+            if (nums[mid - 1] < nums[mid]) {
+                if (nums[mid] < nums[mid + 1]) { // left < mid < right
+                    left = mid;
+                } else { // left < mid > right
+                    return mid;
+                }
+            } else {
+                if (nums[mid] < nums[mid + 1]) { // left > mid < right
+                    //* //
+                    left = mid;
+                    /*/ //OR
+                    right = mid;
+                    //*/ //
+                } else { // left > mid > right
+                    right = mid;
+                }
+            }
+            mid = (left + right) / 2;
+        }
+
+        return -1;
+    }
 }

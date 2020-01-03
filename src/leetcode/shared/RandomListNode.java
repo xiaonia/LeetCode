@@ -2,12 +2,16 @@ package leetcode.shared;
 
 public class RandomListNode {
 
-    public int label;
+    public int val;
 
-    public RandomListNode next, random;
+    public RandomListNode next;
 
-    public RandomListNode(int x) {
-        this.label = x;
+    public RandomListNode random;
+
+    public RandomListNode(int val) {
+        this.val = val;
+        this.next = null;
+        this.random = null;
     }
 
 }

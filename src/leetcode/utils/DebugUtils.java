@@ -1,5 +1,6 @@
 package leetcode.utils;
 
+import leetcode.shared.ListNode;
 import leetcode.shared.TreeNode;
 import leetcode.algorithms.BinaryTreeTraversal;
 
@@ -12,7 +13,11 @@ public class DebugUtils {
     public static void print(Object obj) {
         if (obj instanceof TreeNode) {
             printTreeNode((TreeNode) obj);
-        } else {
+        } else if (obj instanceof ListNode) {
+            printListNode((ListNode) obj);
+        } else if (obj instanceof int[]) {
+            printIntArray((int[]) obj);
+        }else {
             printObject(toString(obj));
         }
     }
@@ -21,9 +26,19 @@ public class DebugUtils {
         System.out.println(obj);
     }
 
-    public static void printTreeNode(TreeNode treeNode) {
+    public static void printTreeNode(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        BinaryTreeTraversal.inorderTraversalByRecursion(treeNode, list);
+        BinaryTreeTraversal.inorderTraversalByRecursion(root, list);
+        print(list);
+    }
+
+    public static void printListNode(ListNode head) {
+        ListNode node = head;
+        List<Integer> list = new ArrayList<>();
+        while (node != null) {
+            list.add(node.val);
+            node = node.next;
+        }
         print(list);
     }
 
@@ -49,5 +64,14 @@ public class DebugUtils {
         }
         return obj.toString();
     }
+
+    public static void printIntArray(int[] aar) {
+        List<Integer> list = new ArrayList<>();
+        for (int val : aar) {
+            list.add(val);
+        }
+        print(list);
+    }
+
 
 }

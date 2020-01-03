@@ -26,10 +26,57 @@ package leetcode.problems;
  * This is a follow up problem to Find Minimum in Rotated Sorted Array.
  * Would allow duplicates affect the run-time complexity? How and why?
  */
+@Deprecated
 public class LeetCode_0154 {
 
     public int findMin(int[] nums) {
-        return 0;
+        return run(nums);
+    }
+
+    public static int run(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+
+        if (nums.length == 1) {
+            return nums[0];
+        }
+
+        int left = 0;
+        int right = nums.length - 1;
+        if (nums[left] < nums[right]) {
+            return nums[left];
+        }
+
+        int mid = (left + right) / 2;
+        while (left < mid) {
+            if (nums[left] < nums[mid]) {
+                left = mid;
+            } else if (nums[left] > nums[mid]) {
+                right = mid;
+            } else {
+                if (nums[left] > nums[right]) {
+                    left = mid;
+                } else {
+                    for (int i = left + 1; i <= mid; i++) {
+                        if (nums[i] == nums[left]) {
+                            continue;
+                        }
+                        if (nums[i] < nums[left]) {
+                            return nums[i];
+                        }
+                        if (nums[i] > nums[left]) {
+                            mid = i;
+                            break;
+                        }
+                    }
+                    left = mid;
+                }
+            }
+            mid = (left + right) / 2;
+        }
+
+        return Math.min(nums[left], nums[right]);
     }
 
 }

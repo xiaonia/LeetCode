@@ -36,10 +36,53 @@ package leetcode.problems;
  *
  * For C programmers, try to solve it in-place in O(1) extra space.
  */
+@Deprecated
 public class LeetCode_0151 {
 
     public String reverseWords(String s) {
-        return null;
+        return run(s);
+    }
+
+    public static String run(String s) {
+        if (s == null || "".equals(s)) {
+            return s;
+        }
+
+        char c;
+        StringBuilder sb = new StringBuilder();
+        boolean flag = false;
+        int end = -1;
+        for (int i = s.length() - 1; i >= 0; i--) {
+            c = s.charAt(i);
+            if (c == ' ') {
+                if (end >= 0) {
+                    if (flag) {
+                        appendSubstring(s, i, end + 1, sb);
+                    }  else {
+                        appendSubstring(s, i + 1, end + 1, sb);
+                        flag = true;
+                    }
+                    end = -1;
+                }
+            } else {
+                if (end < 0) {
+                    end = i;
+                }
+                if (i == 0) {
+                    if (flag) {
+                        sb.append(' ');
+                    }
+                    appendSubstring(s, i, end + 1, sb);
+                }
+            }
+        }
+        return sb.toString();
+    }
+
+    private static void appendSubstring(String s, int start, int end, StringBuilder sb) {
+        for (int i = start; i < end; i++) {
+            sb.append(s.charAt(i));
+        }
     }
 
 }

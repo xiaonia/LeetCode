@@ -1,5 +1,7 @@
 package leetcode.problems;
 
+import java.util.Stack;
+
 /**
  * https://leetcode.com/problems/evaluate-reverse-polish-notation/
  *
@@ -36,10 +38,44 @@ package leetcode.problems;
  * = 17 + 5
  * = 22
  */
+@Deprecated
 public class LeetCode_0150 {
 
     public int evalRPN(String[] tokens) {
-        return 0;
+        return run(tokens);
+    }
+
+    public static int run(String[] tokens) {
+        int result = 0;
+        Stack<Integer> stack = new Stack<>();
+        int[] operands = new int[2];
+        for (String token : tokens) {
+            if ("+".equals(token)) {
+                operands[0] = stack.pop();
+                operands[1] = stack.pop();
+                result = operands[1] + operands[0];
+                stack.push(result);
+            } else if ("-".equals(token)) {
+                operands[0] = stack.pop();
+                operands[1] = stack.pop();
+                result = operands[1] - operands[0];
+                stack.push(result);
+            } else if ("*".equals(token)) {
+                operands[0] = stack.pop();
+                operands[1] = stack.pop();
+                result = operands[1] * operands[0];
+                stack.push(result);
+            } else if ("/".equals(token)) {
+                operands[0] = stack.pop();
+                operands[1] = stack.pop();
+                result = operands[1] / operands[0];
+                stack.push(result);
+            } else {
+                stack.push(Integer.parseInt(token));
+            }
+        }
+
+        return stack.pop();
     }
 
 }

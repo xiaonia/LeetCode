@@ -29,10 +29,65 @@ package leetcode.problems;
  * The knight's health has no upper bound.
  * Any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
  */
+@Deprecated
 public class LeetCode_0174 {
 
     public int calculateMinimumHP(int[][] dungeon) {
-        return 0;
+        return run(dungeon);
+    }
+
+    public static int run(int[][] dungeon) {
+        if (dungeon == null) {
+            return 0;
+        }
+
+        if (dungeon.length == 0) {
+            return 0;
+        }
+
+        int m = dungeon.length;
+        int n = dungeon[0].length;
+
+        int[][] tmp = new int[m][n];
+        if (dungeon[m - 1][n - 1] <= 0) {
+            tmp[m - 1][n - 1] = -dungeon[m - 1][n - 1] + 1;
+        } else {
+            tmp[m - 1][n - 1] = 0;
+        }
+
+        for (int i = n - 2; i >= 0; i--) {
+            if (dungeon[m - 1][i] <= 0) {
+                tmp[m - 1][i] = Math.max(tmp[m - 1][i + 1], 1) + -dungeon[m - 1][i];
+            }
+            else {
+                tmp[m - 1][i] = Math.max(tmp[m - 1][i + 1] - dungeon[m - 1][i], 0);
+            }
+        }
+
+        for (int j = m - 2; j >= 0; j--) {
+            if (dungeon[j][n - 1] <= 0) {
+                tmp[j][n - 1] = Math.max(tmp[j + 1][n - 1], 1) + -dungeon[j][n - 1];
+            }
+            else {
+                tmp[j][n - 1] = Math.max(tmp[j + 1][n - 1] - dungeon[j][n - 1], 0);
+            }
+        }
+
+        for (int j = m - 2; j >= 0; j--) {
+            for (int i = n - 2; i >= 0; i--) {
+                if (dungeon[j][i] <= 0) {
+                    tmp[j][i] = Math.min(Math.max(tmp[j][i + 1], 1), Math.max(tmp[j + 1][i], 1)) + -dungeon[j][i];
+                }
+                else {
+                    tmp[j][i] = Math.max(Math.min(tmp[j][i + 1], tmp[j + 1][i]) - dungeon[j][i], 0);
+                }
+            }
+        }
+
+        if (tmp[0][0] == 0) {
+            return 1;
+        }
+        return tmp[0][0];
     }
 
 }

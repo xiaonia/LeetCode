@@ -19,10 +19,20 @@ package leetcode.problems;
  * Explanation: 5! = 120, one trailing zero.
  * Note: Your solution should be in logarithmic time complexity.
  */
+@Deprecated
 public class LeetCode_0172 {
 
     public int trailingZeroes(int n) {
-        return 0;
+        return run(n);
+    }
+
+    public static int run(int n) {
+        int result = 0;
+        while (n != 0) {
+            n = n / 5;
+            result += n;
+        }
+        return result;
     }
 
 }

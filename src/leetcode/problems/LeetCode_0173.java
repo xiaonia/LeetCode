@@ -2,6 +2,10 @@ package leetcode.problems;
 
 import leetcode.shared.TreeNode;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 /**
  * https://leetcode.com/problems/binary-search-tree-iterator/
  *
@@ -34,6 +38,7 @@ import leetcode.shared.TreeNode;
  * next() and hasNext() should run in average O(1) time and uses O(h) memory, where h is the height of the tree.
  * You may assume that next() call will always be valid, that is, there will be at least a next smallest number in the BST when next() is called.
  */
+@Deprecated
 public class LeetCode_0173 {
 
     /**
@@ -47,18 +52,40 @@ public class LeetCode_0173 {
      */
     class BSTIterator {
 
-        public BSTIterator(TreeNode root) {
+        final List<Integer> list;
+        int index;
 
+        public BSTIterator(TreeNode root) {
+            index = 0;
+            list = new ArrayList<>();
+            Stack<TreeNode> stack = new Stack<>();
+            TreeNode node = root;
+            //stack.push(node);
+            while (true) {
+                if (node == null) {
+                    if (stack.isEmpty()) {
+                        break;
+                    }
+                    node = stack.pop();
+                } else {
+                    while (node.left != null) {
+                        stack.push(node);
+                        node = node.left;
+                    }
+                }
+                list.add(node.val);
+                node = node.right;
+            }
         }
 
         /** @return the next smallest number */
         public int next() {
-            return 0;
+            return list.get(index++);
         }
 
         /** @return whether we have a next smallest number */
         public boolean hasNext() {
-            return false;
+            return index < list.size();
         }
     }
 

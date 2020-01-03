@@ -1,25 +1,18 @@
 package com.xosp.learn.kotlin
 
-open class BaseClazz1 {
-    open val name: String = ""
+open class BaseClazz1(name: String) {
+
+    val testProp1 = "xxx"
+
+    val testProp2 = "hello $name"
+
+    init {
+        print("init")
+    }
 }
 
 interface BaseClazz2 {
 
-}
-
-class Clazz3: BaseClazz1(), BaseClazz2 {
-    override var name: String = ""
-        get() {
-            return "from getter"
-        }
-        set(value) {
-            field = value + "ss"
-        }
-
-    companion object {
-
-    }
 }
 
 class TestClazz constructor(arg1: String, val prop1: String) {

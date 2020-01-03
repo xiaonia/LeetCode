@@ -33,7 +33,28 @@ package leetcode.problems;
 public class LeetCode_0171 {
 
     public int titleToNumber(String s) {
-        return 0;
+        return run(s);
     }
+
+    public static int run(String s) {
+        if (s == null) {
+            return 0;
+        }
+
+        int n = 0;
+        for (int i = 0; i < s.length(); i++) {
+            n += (s.charAt(i) - 'A' + 1) * ((int) Math.pow(26, s.length() - 1 - i));
+        }
+        return n;
+    }
+
+    public int titleToNumber2(String s) {
+        int result = 0;
+        for(int i = 0 ; i < s.length(); i++) {
+            result = result * 26 + (s.charAt(i) - 'A' + 1);
+        }
+        return result;
+    }
+
 
 }

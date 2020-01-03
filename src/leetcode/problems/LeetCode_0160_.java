@@ -2,6 +2,9 @@ package leetcode.problems;
 
 import leetcode.shared.ListNode;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * https://leetcode.com/problems/intersection-of-two-linked-lists/
  *
@@ -48,7 +51,7 @@ import leetcode.shared.ListNode;
  * You may assume there are no cycles anywhere in the entire linked structure.
  * Your code should preferably run in O(n) time and use only O(1) memory.
  */
-public class LeetCode_0160 {
+public class LeetCode_0160_ {
 
     /**
      * Definition for singly-linked list.
@@ -62,7 +65,57 @@ public class LeetCode_0160 {
      * }
      */
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        return null;
+        //boundary check
+        if(headA == null || headB == null) {
+            return null;
+        }
+
+        ListNode nodeA = headA;
+        ListNode nodeB = headB;
+
+        //if a & b have different len, then we will stop the loop after second iteration
+        while( nodeA != nodeB){
+            //for the end of first iteration, we just reset the pointer to the head of another linkedlist
+            nodeA = nodeA == null? headB : nodeA.next;
+            nodeB = nodeB == null? headA : nodeB.next;
+        }
+
+        return nodeA;
+    }
+
+    public static ListNode run(ListNode headA, ListNode headB) {
+        Map<ListNode, Integer> map = new HashMap<>();
+        int countA = 0;
+        int countB = 0;
+        ListNode nodeA = headA;
+        ListNode nodeB = headB;
+        ListNode node = null;
+        while (true) {
+            if (nodeA == null && nodeB == null) {
+                break;
+            }
+
+            if (nodeA != null) {
+                if (map.get(nodeA) != null) {
+                    node = nodeA;
+                    break;
+                }
+                map.put(nodeA, countA);
+                nodeA = nodeA.next;
+                countA ++;
+            }
+
+            if (nodeB != null) {
+                if (map.get(nodeB) != null) {
+                    node = nodeB;
+                    break;
+                }
+                map.put(nodeB, countB);
+                nodeB = nodeB.next;
+                countB ++;
+            }
+        }
+        return node;
     }
 
 }
