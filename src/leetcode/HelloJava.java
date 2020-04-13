@@ -1,15 +1,23 @@
 package leetcode;
 
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
+
 public class HelloJava {
 
     public static void main(String[] args) {
-        int value = -1;
-        System.out.println(">>>>>>>>>>>>>>>>>>>>>> " + value);
-        for (int i = 0; i < 5; i++) {
-            value <<= 7;
-            System.out.println(">>>>>>>>>>>>>>>>>>>> " + value);
+        boolean timeout = true;
+        synchronized (HelloJava.class) {
+            CountDownLatch latch = new CountDownLatch(1);
+            latch.countDown();
+            try {
+                timeout = latch.await(1000, TimeUnit.MILLISECONDS);
+            } catch (Exception e) {
+                e.printStackTrace();
+            } finally {
+                System.out.println("timeout=" + timeout);
+            }
         }
-        System.out.println(">>>>>>>>>>>>>>>>>>>>>> " + (value >> 1));
     }
 
     private static void testVarargs(Object... args) {

@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0ebf901-f2e1-491e-a040-4c9f5a8f19f5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/groovy/TestMetaClass.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/groovy/HelloGroovy.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/groovy/HelloGroovy.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kotlin/HelloKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/kotlin/HelloKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/HelloJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/HelloJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0187.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0187.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0188.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0188.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +29,7 @@
         <option value="Kotlin File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Gradle Kotlin DSL Build Script" />
       </list>
     </option>
   </component>
@@ -70,23 +76,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Groovy.TestMetaClass">
     <configuration name="HelloJava (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.HelloJava" />
-      <module name="JavaExample" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Solution" />
       <module name="JavaExample" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -113,9 +105,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloGroovy (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="JavaExample" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/groovy/HelloGroovy.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/groovy" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloGroovy" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="JavaExample" />
       <setting name="path" value="file://$PROJECT_DIR$/src/groovy/HelloGroovy.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/groovy" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMetaClass" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="JavaExample" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/groovy/TestMetaClass.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src/groovy" />
@@ -144,19 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kotlin.HellpKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="JavaExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="kotlin.HellpKotlinKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -169,18 +170,18 @@
     <list>
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.HelloJava (1)" />
-      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Groovy.HelloGroovy (1)" />
       <item itemvalue="Groovy.HelloGroovy" />
       <item itemvalue="Kotlin.com.xosp.learn.kotlin.HelloKotlinKt" />
-      <item itemvalue="Kotlin.kotlin.HellpKotlinKt" />
+      <item itemvalue="Groovy.TestMetaClass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.HelloJava (1)" />
-        <item itemvalue="Kotlin.com.xosp.learn.kotlin.HelloKotlinKt" />
-        <item itemvalue="Kotlin.kotlin.HellpKotlinKt" />
+        <item itemvalue="Groovy.TestMetaClass" />
         <item itemvalue="Groovy.HelloGroovy" />
+        <item itemvalue="Application.HelloJava (1)" />
+        <item itemvalue="Groovy.HelloGroovy (1)" />
+        <item itemvalue="Kotlin.com.xosp.learn.kotlin.HelloKotlinKt" />
       </list>
     </recent_temporary>
   </component>

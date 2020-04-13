@@ -26,8 +26,8 @@ public class Solution {
         String str = "worddwordbestwordgoodgoodgoodbestwordword";
         String[] words = new String[]{"word","ordd","best","word"};
         DebugUtils.print(
-                LeetCode_0187.run(
-                        "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+                LeetCode_0188.run(
+                        2, new int[]{1,2,4,2,5,7,2,4,9,0,9}
                 )
         );
         //*/

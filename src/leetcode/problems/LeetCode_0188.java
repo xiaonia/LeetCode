@@ -1,5 +1,8 @@
 package leetcode.problems;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
  *
@@ -27,7 +30,122 @@ package leetcode.problems;
 public class LeetCode_0188 {
 
     public int maxProfit(int k, int[] prices) {
-        return 0;
+        return run(k, prices);
+    }
+
+    public static int run(int k, int[] prices) {
+        if (k < 1 || prices == null || prices.length < 2) {
+            return 0;
+        }
+
+        List<Integer> points = new ArrayList<>();
+        int transactions = 0;
+        boolean increase = false;
+        int start = 0;
+        int max = 0;
+        int min = 0;
+        int profit = 0;
+        for (int i = start + 1; i < prices.length; i++) {
+            if (prices[i - 1] < prices[i]) { // 谷 .../
+                min = prices[start];
+                points.add(min);
+                start = i;
+                increase = true;
+                break;
+            }
+            if (prices[i - 1] > prices[i]) { // 峰 '''\
+                //max = prices[start];
+                //points.add(max);
+                start = i;
+                increase = false;
+                break;
+            }
+        }
+
+        for (int j = start + 1; j < prices.length; j++) {
+            if (increase) {
+                if (prices[j - 1] > prices[j]) { // 峰 /'''\
+                    max = prices[start];
+                    points.add(max);
+                    transactions ++;
+                    profit = profit + (max - min);
+                    increase = false;
+                }
+                start = j;
+            } else {
+                if (prices[j - 1] < prices[j]) { // 谷 \.../
+                    min = prices[start];
+                    points.add(min);
+                    increase = true;
+                }
+                start = j;
+            }
+        }
+
+        if (increase) { // 峰 /'''
+            max = prices[prices.length - 1];
+            points.add(max);
+            transactions ++;
+            profit = profit + (max - min);
+        } else { // 谷 \...
+            //min = prices[prices.length - 1];
+        }
+
+        if (points.size() < 2) {
+            return profit;
+        }
+
+        if (k >= transactions) {
+            return profit;
+        }
+
+        int[][] temp = new int[transactions][transactions];
+
+        //
+        for (int i = 0; i < k; i++) {
+          for (int j = i; j < transactions; j++) {
+
+          }
+        }
+
+        while (k < transactions) {
+            int v = 0;
+            int p = 1;
+            int val = points.get(1) - points.get(0);
+            profit = profit - val;
+
+            int cur = 0;
+            int pre = points.get(0);
+            int next = 0;
+            for (int i = 1; i < points.size(); i+=2) {
+                cur = points.get(i);
+                if (cur - pre < val) {
+                    profit = profit + val;
+                    val = cur - pre;
+                    p = i;
+                    v = i - 1;
+                    profit = profit - val;
+                }
+
+                if (i + 1 < points.size()) {
+                    next = points.get(i + 1);
+                    if (cur - next < val) {
+                        profit = profit + val;
+                        val = cur - next;
+                        p = i;
+                        v = i + 1;
+                        profit = profit - val;
+                    }
+                }
+
+                pre = next;
+            }
+            points.remove(p);
+            points.remove(v);
+            transactions --;
+        }
+
+        return profit;
     }
 
 }
