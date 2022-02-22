@@ -1,5 +1,12 @@
 package leetcode.problems;
 
+import leetcode.utils.DebugUtils;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * https://leetcode.com/problems/course-schedule-ii/
  *
@@ -33,8 +40,60 @@ package leetcode.problems;
  */
 public class LeetCode_0210 {
 
+    public static void main(String[] args) {
+        DebugUtils.print(
+                new LeetCode_0210().findOrder(
+                        4,
+                        new int[][]{
+                                {1,0},
+                                {2,0},
+                                {3,1},
+                                {3,2}
+                        }
+                )
+        );
+    }
+
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        return null;
+        return topSort(numCourses, prerequisites);
+    }
+
+    private static int[] topSort(int numCourses, int[][] prerequisites) {
+        int[] courses = new int[numCourses];
+        List<List<Integer>> nextList = new ArrayList<>();
+        List<Integer> countList = new ArrayList<>();
+        for (int i = 0; i < numCourses; i++) {
+            nextList.add(new ArrayList<>());
+            countList.add(0);
+        }
+
+        for (int[] prerequisite : prerequisites) {
+            nextList.get(prerequisite[1]).add(prerequisite[0]);
+            countList.set(prerequisite[0], countList.get(prerequisite[0]) + 1);
+        }
+
+        int index = 0;
+        for (int j = 0; j < countList.size(); j++) {
+            if (countList.get(j) == 0) {
+                courses[index++] = j;
+            }
+        }
+
+        for (int i = 0; i < index; i++) {
+            for (int next : nextList.get(courses[i])) {
+                int count = countList.get(next) - 1;
+                if (count == 0) {
+                    courses[index++] = next;
+                } else {
+                    countList.set(next, count);
+                }
+            }
+        }
+
+        if (index < numCourses) {
+            return new int[0];
+        }
+        return courses;
     }
 
 }
