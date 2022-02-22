@@ -1,5 +1,7 @@
 package leetcode.problems;
 
+import leetcode.utils.DebugUtils;
+
 /**
  * https://leetcode.com/problems/rotate-array/
  *
@@ -29,8 +31,64 @@ package leetcode.problems;
  */
 public class LeetCode_0189 {
 
-    public void rotate(int[] nums, int k) {
+    public static void main(String[] args) {
+        rotate(new int[]{1,2,3,4,5,6}, 4);
+    }
 
+    public static void rotate(int[] nums, int k) {
+        if (nums.length <= 1) {
+            return;
+        }
+        int delta = k % nums.length;
+        if (delta == 0) {
+            return;
+        }
+        solution2(nums, delta);
+        DebugUtils.print(nums);
+    }
+
+    private static void solution2(int[] nums, int k) {
+        // 球最大公约数
+        int size = gcd(nums.length, k);
+        int loop = nums.length / size;
+        int preValue;
+        int nextValue;
+        int nextIndex;
+
+        for (int i = 0; i < size; i++) {
+            preValue = nums[i];
+            for (int j = 1; j <= loop; j++) {
+                nextIndex = (i + j * k) % nums.length;
+                nextValue = nums[nextIndex];
+                nums[nextIndex] = preValue;
+                preValue = nextValue;
+            }
+        }
+    }
+
+    private static int gcd(int a, int b) {
+        if (b == 0) {
+            return a;
+        } else  {
+            return gcd(b, a % b);
+        }
+    }
+
+    private static void solution3(int[] nums, int k) {
+        k %= nums.length;
+        reverse(nums, 0, nums.length - 1);
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, nums.length - 1);
+    }
+
+    private static void reverse(int[] nums, int start, int end) {
+        while (start < end) {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
+        }
     }
 
 }
