@@ -1,5 +1,7 @@
 package leetcode.problems;
 
+import leetcode.utils.DebugUtils;
+
 /**
  * https://leetcode.com/problems/shortest-palindrome/
  *
@@ -18,8 +20,49 @@ package leetcode.problems;
  */
 public class LeetCode_0214 {
 
-    public String shortestPalindrome(String s) {
-        return null;
+    public static void main(String[] args) {
+        DebugUtils.print(
+                new LeetCode_0214().shortestPalindrome(
+                        "aacecaaa"
+                )
+        );
+        DebugUtils.print(
+                new LeetCode_0214().shortestPalindrome(
+                        "abcd"
+                )
+        );
     }
+
+    public String shortestPalindrome(String s) {
+        if (s.length() <= 1) {
+            return s;
+        }
+        int index = 0;
+        for (int i = s.length() - 1; i >= 0; i--) {
+            if (isPalindrome(s, 0, i)) {
+                index = i;
+                break;
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int j = s.length() - 1; j > index; j--) {
+            sb.append(s.charAt(j));
+        }
+        sb.append(s);
+        return sb.toString();
+    }
+
+    private boolean isPalindrome(String s, int start, int end) {
+        int lo = start;
+        int hi = end;
+        while (lo < hi && s.charAt(lo) == s.charAt(hi)) {
+            lo++;
+            hi--;
+        }
+        return lo >= hi;
+    }
+
+    //TODO KMP
+    // s + "#" + s.reverse()
 
 }
