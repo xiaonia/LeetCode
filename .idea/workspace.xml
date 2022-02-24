@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9e5d1e52-5d6f-453e-8462-1dc767f551f1" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0220.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0220.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0221.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/problems/LeetCode_0221.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +59,7 @@
       <recent name="$PROJECT_DIR$/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode_0220">
-    <configuration name="LeetCode_0216" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.problems.LeetCode_0216" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LeetCode_0221">
     <configuration name="LeetCode_0217" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.problems.LeetCode_0217" />
       <module name="LeetCode" />
@@ -125,13 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeetCode_0221" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.problems.LeetCode_0221" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode_0221" />
         <item itemvalue="Application.LeetCode_0220" />
         <item itemvalue="Application.LeetCode_0219" />
         <item itemvalue="Application.LeetCode_0218" />
         <item itemvalue="Application.LeetCode_0217" />
-        <item itemvalue="Application.LeetCode_0216" />
       </list>
     </recent_temporary>
   </component>
