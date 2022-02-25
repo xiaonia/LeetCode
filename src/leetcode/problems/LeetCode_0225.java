@@ -28,6 +28,10 @@ package leetcode.problems;
  */
 public class LeetCode_0225 {
 
+    public static void main(String[] args) {
+
+    }
+
     class MyStack {
 
         /** Initialize your data structure here. */
