@@ -1,5 +1,7 @@
 package leetcode.problems;
 
+import leetcode.utils.DebugUtils;
+
 /**
  * https://leetcode.com/problems/rectangle-area/
  *
@@ -22,11 +24,39 @@ package leetcode.problems;
 public class LeetCode_0223 {
 
     public static void main(String[] args) {
+        DebugUtils.print(
+                new LeetCode_0223().computeArea(
+                        0, 0,
+                        0, 0,
+                        -1, -1,
+                        1, 1
+                )
+        );
+        DebugUtils.print(
+                new LeetCode_0223().computeArea(
+                        -3, 0,
+                        3, 4,
+                        0, -1,
+                        9, 2
+                )
+        );
 
     }
 
-    public int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
-        return 0;
+    public int computeArea(
+            int lbx1, int lby1, int rtx1, int rty1,
+            int lbx2, int lby2, int rtx2, int rty2
+    ) {
+        int left = Math.max(lbx1, lbx2);
+        int top = Math.min(rty1, rty2);
+        int right = Math.min(rtx1, rtx2);
+        int bottom = Math.max(lby1, lby2);
+        int overlay = 0;
+        if (left <= right && top >= bottom) {
+            overlay = (right - left) * (top - bottom);
+        }
+        int total = (rtx1 - lbx1) * (rty1 - lby1) + (rtx2 - lbx2) * (rty2 - lby2);
+        return total - overlay;
     }
 
 }
