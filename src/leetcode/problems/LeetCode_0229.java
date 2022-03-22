@@ -1,5 +1,8 @@
 package leetcode.problems;
 
+import leetcode.utils.DebugUtils;
+
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -22,8 +25,98 @@ import java.util.List;
  */
 public class LeetCode_0229 {
 
+    public static void main(String[] args) {
+        DebugUtils.print(
+                new LeetCode_0229().majorityElement(
+                        new int[]{
+                                2,1,1,3,1,4,5,6
+                        }
+                )
+        );
+        DebugUtils.print(
+                new LeetCode_0229().majorityElement(
+                        new int[]{
+                                1, 1, 1, 3, 3, 2, 2, 2
+                        }
+                )
+        );
+    }
+
     public List<Integer> majorityElement(int[] nums) {
-        return null;
+        List<Integer> list = new ArrayList<>();
+        int firstNum = 0;
+        int firstCount = 0;
+        int secondNum = 0;
+        int sectionCount = 0;
+        for (int num : nums) {
+            if (firstCount > 0 && firstNum == num) {
+                firstCount++;
+                continue;
+            }
+            if (sectionCount > 0 && secondNum == num) {
+                sectionCount++;
+                continue;
+            }
+
+            if (firstCount == 0) {
+                firstNum = num;
+                firstCount = 1;
+                continue;
+            }
+            if (sectionCount == 0) {
+                secondNum = num;
+                sectionCount = 1;
+                continue;
+            }
+
+            firstCount--;
+            sectionCount--;
+        }
+
+        boolean hasFirstNum = firstCount > 0;
+        boolean hasSecondNum = sectionCount > 0;
+
+        firstCount = 0;
+        sectionCount = 0;
+        for (int num : nums) {
+            if (firstNum == num) {
+                firstCount++;
+            }
+            else if (secondNum == num) {
+                sectionCount++;
+            }
+        }
+
+        if (hasFirstNum && firstCount > nums.length / 3) {
+            list.add(firstNum);
+        }
+        if (hasSecondNum && sectionCount > nums.length / 3) {
+            list.add(secondNum);
+        }
+
+        return list;
+    }
+
+    //快速排序
+    public static int quickSort(int[] nums, int startIndex, int endIndex) {
+        int midIndex = startIndex;
+        int midNum = nums[midIndex];
+        for (int i = startIndex + 1; i <= endIndex; i++) {
+            if (nums[i] <= midNum) {
+                swap(nums, midIndex++, i);
+            }
+        }
+        swap(nums, startIndex, midIndex);
+        return midIndex;
+    }
+
+    public static void swap(int[] nums, int from, int to) {
+        if (from == to) {
+            return;
+        }
+        nums[from] ^= nums[to];
+        nums[to] ^= nums[from];
+        nums[from] ^= nums[to];
     }
 
 }
